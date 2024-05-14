@@ -15,9 +15,9 @@ cd ..
 # https://www.wch.cn/products/CH32V003.html
 cd datasheet_zh
 # https://www.wch.cn/downloads/CH32V003DS0_PDF.html
-wget --continue https://www.wch-ic.com/downloads/file/408.html -O CH32V003DS0.PDF
+wget --continue https://www.wch.cn/downloads/file/408.html -O CH32V003DS0.PDF
 # https://www.wch.cn/downloads/CH32V003RM_PDF.html
-wget --continue https://www.wch-ic.com/downloads/file/411.html -O CH32V003RM.PDF
+wget --continue https://www.wch.cn/downloads/file/411.html -O CH32V003RM.PDF
 cd ..
 
 # https://www.wch.cn/downloads/CH32V003EVT_ZIP.html
