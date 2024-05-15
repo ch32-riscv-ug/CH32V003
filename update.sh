@@ -23,7 +23,7 @@ cd ..
 # https://www.wch.cn/downloads/CH32V003EVT_ZIP.html
 wget --continue https://www.wch.cn/downloads/file/409.html -O CH32V003EVT.ZIP
 rm -rfv EVT
-unzip *.ZIP
+unzip -O utf-8 *.ZIP
 
 git add . --all
 git commit -m "update"
