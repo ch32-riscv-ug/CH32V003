@@ -9,10 +9,10 @@
 - https://www.wch.cn/products/CH32V003.html
 
 ## System Block Diagram
-<img src="image/system.png" />
+<img src="image/system_CH32V003.png" />
 
 ## System Architecture
-<img src="image/architecture.png" />
+<img src="image/architecture_CH32V003.png" />
 
 ## Comparison
 <table>
