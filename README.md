@@ -8,6 +8,10 @@
 - https://www.wch-ic.com/products/CH32V003.html
 - https://www.wch.cn/products/CH32V003.html
 
+## Datasheet
+- en [[CH32V003DS0.PDF](https://ch32-riscv-ug.github.io/CH32V003/datasheet_en/CH32V003DS0.PDF)] [[CH32V003RM.PDF](https://ch32-riscv-ug.github.io/CH32V003/datasheet_en/CH32V003RM.PDF)]
+- zh [[CH32V003DS0.PDF](https://ch32-riscv-ug.github.io/CH32V003/datasheet_zh/CH32V003DS0.PDF)] [[CH32V003RM.PDF](https://ch32-riscv-ug.github.io/CH32V003/datasheet_zh/CH32V003RM.PDF)]
+
 ## System Block Diagram
 <img src="image/system_CH32V003.png" />
 
