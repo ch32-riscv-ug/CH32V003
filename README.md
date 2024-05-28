@@ -22,13 +22,13 @@
 <table>
     <thead>
         <tr>
-            <th>CH32V003<br>A4M6<br>(SOP16)</th>
-            <th>CH32V003<br>F4P6<br>(TSSOP20)</th>
-            <th>CH32V003<br>F4U6<br>(QFN20)</th>
-            <th>CH32V003<br>J4M6<br>(SOP8)</th>
+            <th>CH32V003&#8203;A4M6&#8203;(SOP16)</th>
+            <th>CH32V003&#8203;F4P6&#8203;(TSSOP20)</th>
+            <th>CH32V003&#8203;F4U6&#8203;(QFN20)</th>
+            <th>CH32V003&#8203;J4M6&#8203;(SOP8)</th>
             <th>Pin name</th>
             <th>Pin type</th>
-            <th>Main function<br>(after reset)</th>
+            <th>Main function&#8203;(after reset)</th>
             <th>Note</th>
         </tr>
     </thead>
