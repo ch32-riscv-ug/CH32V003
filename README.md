@@ -4,6 +4,16 @@
 |-------|-------|-----|------|
 |       | PD1   | PD5 | PD6  |
 
+Pin Alternate Functions
+[[ALL](https://ch32-riscv-ug.github.io/ch32_riscv_tools/PinAlternateFunctions/?chip=CH32V003)]
+[[ADC](https://ch32-riscv-ug.github.io/ch32_riscv_tools/PinAlternateFunctions/?chip=CH32V003&features=ADC)]
+[[I2C](https://ch32-riscv-ug.github.io/ch32_riscv_tools/PinAlternateFunctions/?chip=CH32V003&features=I2C)]
+[[SPI](https://ch32-riscv-ug.github.io/ch32_riscv_tools/PinAlternateFunctions/?chip=CH32V003&features=SPI)]
+[[SYS](https://ch32-riscv-ug.github.io/ch32_riscv_tools/PinAlternateFunctions/?chip=CH32V003&features=SYS)]
+[[TIM](https://ch32-riscv-ug.github.io/ch32_riscv_tools/PinAlternateFunctions/?chip=CH32V003&features=TIM)]
+[[UART/USART](https://ch32-riscv-ug.github.io/ch32_riscv_tools/PinAlternateFunctions/?chip=CH32V003&features=ART)]
+[[USB](https://ch32-riscv-ug.github.io/ch32_riscv_tools/PinAlternateFunctions/?chip=CH32V003&features=USB)]
+
 ## Official Site
 - https://www.wch-ic.com/products/CH32V003.html
 - https://www.wch.cn/products/CH32V003.html
