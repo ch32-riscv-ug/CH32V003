@@ -1,4 +1,8 @@
 name: update
+# Daily mirror refresh. update.sh reads the catalogue in
+# ch32-riscv-ug/ch32-device-data to learn which documents belong to this mirror,
+# so this workflow is identical in every mirror and needs no per-repo edits.
+# 取得対象は ch32-device-data のカタログが決めるため、この workflow は全mirror共通。
 
 on:
   schedule:
