@@ -4,9 +4,9 @@
 
 ## Series
 
-| Series | Core | ISA | Flash | SRAM | Packages | Products | Official |
-|---|---|---|---|---|---|---|---|
-| **CH32V003** | QingKe V2A | RV32EC | 16K | 2K | QFN20,SOP16,SOP8,TSSOP20 | 4 | [en](https://www.wch-ic.com/products/CH32V003.html) / [zh](https://www.wch.cn/products/CH32V003.html) |
+| Series | Core | ISA | Flash | SRAM | Max clock | VDD | Packages | Products | Official |
+|---|---|---|---|---|---|---|---|---|---|
+| **CH32V003** | QingKe V2A | RV32EC | 16K | 2K | 50 MHz | 2.7-5.5V | QFN20,SOP16,SOP8,TSSOP20 | 4 | [en](https://www.wch-ic.com/products/CH32V003.html) / [zh](https://www.wch.cn/products/CH32V003.html) |
 
 ## Debug / serial defaults
 
