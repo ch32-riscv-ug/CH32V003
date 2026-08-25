@@ -8,6 +8,8 @@ Programming and debug: **1-wire SDI** (WCH-Link, `Serial Debug Interface`).
 
 ### Debug / serial defaults
 
+Where these land **without writing a remap register**. SWD is live at reset; the UART pads are not -- the pin must still be put into alternate-function mode. See `route` in tables/README.ja.md.
+
 | Series | SWDIO | SWCLK | UART TX | UART RX |
 |---|---|---|---|---|
 | CH32V003 | PD1 | - | PD5 (USART1) | PD6 (USART1) |
