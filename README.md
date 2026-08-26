@@ -1,6 +1,8 @@
 # CH32V003
 
-<!-- This file is generated from ch32-riscv-ug/ch32-device-data (tables/ + tools/build_readme.py). Edit there, not here. -->
+<!-- This file is generated from ch32-riscv-ug/ch32-device-data (index/ + evidence/ + tools/build_readme.py). Edit there, not here. -->
+
+*Generated from the mirror at commit [`539e279`](https://github.com/ch32-riscv-ug/CH32V003/tree/539e279b73abd817670b8efbb9335f2d8d98fda7) (2026-08-24). Newer PDFs may exist upstream; see Documents below.*
 
 ## Quick start
 
@@ -8,7 +10,7 @@ Programming and debug: **1-wire SDI** (WCH-Link, `Serial Debug Interface`).
 
 ### Debug / serial defaults
 
-Where these land **without writing a remap register**. SWD is live at reset; the UART pads are not -- the pin must still be put into alternate-function mode. See `route` in tables/README.ja.md.
+Where these land **without writing a remap register**. SWD is live at reset; the UART pads are not -- the pin must still be put into alternate-function mode. See `route` in evidence/README.ja.md.
 
 | Series | SWDIO | SWCLK | UART TX | UART RX |
 |---|---|---|---|---|
@@ -164,7 +166,7 @@ Pin functions (filterable): [ALL](https://ch32-riscv-ug.github.io/ch32-device-da
 
 `link-origin` is what the EVT linker scripts use; the `memory` row for FLASH is the address the device header states. Both windows are real -- CH32V307 answers at `0x08000000` and at `0x00000000`.
 
-Peripheral base addresses are in [memory_map.csv](https://github.com/ch32-riscv-ug/ch32-device-data/blob/main/tables/memory_map.csv); interrupt numbers in [interrupts.csv](https://github.com/ch32-riscv-ug/ch32-device-data/blob/main/tables/interrupts.csv).
+Peripheral base addresses are in [memory_map.csv](https://github.com/ch32-riscv-ug/ch32-device-data/blob/main/evidence/memory_map.csv); interrupt numbers in [interrupts.csv](https://github.com/ch32-riscv-ug/ch32-device-data/blob/main/evidence/interrupts.csv).
 
 ---
-Data: [ch32-device-data](https://github.com/ch32-riscv-ug/ch32-device-data) (tables/ -- each value carries its evidence and confidence there).
+Data: [ch32-device-data](https://github.com/ch32-riscv-ug/ch32-device-data) (evidence/ and index/ -- each value carries its evidence and confidence there).
