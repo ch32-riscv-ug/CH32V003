@@ -4,6 +4,8 @@
 
 *Generated from the mirror at commit [`539e279`](https://github.com/ch32-riscv-ug/CH32V003/tree/539e279b73abd817670b8efbb9335f2d8d98fda7) (2026-08-24). Newer PDFs may exist upstream; see Documents below.*
 
+[Choose a part](#product-comparison) &middot; [Pin viewer](https://ch32-riscv-ug.github.io/ch32-device-data/pins.html?chip=CH32V003) &middot; [Pin maps](#pin-maps--alternate-functions) &middot; [Examples](#evt-examples) &middot; [Documents](#documents) &middot; [Address map](#address-map)
+
 ## Quick start
 
 Programming and debug: **1-wire SDI** (WCH-Link, `Serial Debug Interface`).
@@ -18,7 +20,7 @@ Where these land **without writing a remap register**. SWD is live at reset; the
 
 ## Series
 
-| Series | Core | ISA | Flash | SRAM | Clock | VDD | Packages | Products | Official |
+| Series | Core | ISA | Flash | SRAM | Main clock | VDD | Packages | Products | Official |
 |---|---|---|---|---|---|---|---|---|---|
 | **CH32V003** | QingKe V2A | RV32EC | 16K | 2K | 48 MHz | 2.7-5.5V | QFN20,SOP16,SOP8,TSSOP20 | 4 | [en](https://www.wch-ic.com/products/CH32V003.html) / [zh](https://www.wch.cn/products/CH32V003.html) |
 
@@ -26,15 +28,24 @@ Where these land **without writing a remap register**. SWD is live at reset; the
 
 ### CH32V003 product comparison
 
-| | CH32V003&#8203;A4M6&#8203;(SOP16) | CH32V003&#8203;F4P6&#8203;(TSSOP20) | CH32V003&#8203;F4U6&#8203;(QFN20) | CH32V003&#8203;J4M6&#8203;(SOP8) |
+Only the 3 rows that differ between these 4 products; the other 9 are the same for all of them.
+
+| | [CH32V003&#8203;A4M6](https://ch32-riscv-ug.github.io/ch32-device-data/pins.html?chip=CH32V003A4M6)&#8203;(SOP16) | [CH32V003&#8203;F4P6](https://ch32-riscv-ug.github.io/ch32-device-data/pins.html?chip=CH32V003F4P6)&#8203;(TSSOP20) | [CH32V003&#8203;F4U6](https://ch32-riscv-ug.github.io/ch32-device-data/pins.html?chip=CH32V003F4U6)&#8203;(QFN20) | [CH32V003&#8203;J4M6](https://ch32-riscv-ug.github.io/ch32-device-data/pins.html?chip=CH32V003J4M6)&#8203;(SOP8) |
+|---|---|---|---|---|
+| **GPIO** | 14 | 18 | 18 | 6 |
+| ADC Channel No. | 6 | 8 | 8 | 6 |
+| SPI | - | 1 | 1 | - |
+
+<details><summary>All 12 rows</summary>
+
+| | [CH32V003&#8203;A4M6](https://ch32-riscv-ug.github.io/ch32-device-data/pins.html?chip=CH32V003A4M6)&#8203;(SOP16) | [CH32V003&#8203;F4P6](https://ch32-riscv-ug.github.io/ch32-device-data/pins.html?chip=CH32V003F4P6)&#8203;(TSSOP20) | [CH32V003&#8203;F4U6](https://ch32-riscv-ug.github.io/ch32-device-data/pins.html?chip=CH32V003F4U6)&#8203;(QFN20) | [CH32V003&#8203;J4M6](https://ch32-riscv-ug.github.io/ch32-device-data/pins.html?chip=CH32V003J4M6)&#8203;(SOP8) |
 |---|---|---|---|---|
 | **Flash** | 16K | 16K | 16K | 16K |
 | **SRAM** | 2K | 2K | 2K | 2K |
 | **GPIO** | 14 | 18 | 18 | 6 |
 | **Temperature** | -40..85C | -40..85C | -40..85C | -40..85C |
-| General- purpose I/O | 14 | 18 | 18 | 6 |
-| Advanced- control timer | 1 | 1 | 1 | 1 |
-| General- purpose timer | 1 | 1 | 1 | 1 |
+| Advanced-control timer | 1 | 1 | 1 | 1 |
+| General-purpose timer | 1 | 1 | 1 | 1 |
 | Watchdog | 2 | 2 | 2 | 2 |
 | System clock source | 3 | 3 | 3 | 3 |
 | ADC Channel No. | 6 | 8 | 8 | 6 |
@@ -42,7 +53,9 @@ Where these land **without writing a remap register**. SWD is live at reset; the
 | SPI | - | 1 | 1 | - |
 | USART | 1 | 1 | 1 | 1 |
 
-## Pinouts
+</details>
+
+## Packages & pinout drawings
 
 Pinout drawings are in the datasheet (chapter *Pinouts*):
 
@@ -53,7 +66,10 @@ Pinout drawings are in the datasheet (chapter *Pinouts*):
 | QFN20 | CH32V003F4U6 | [en](https://ch32-riscv-ug.github.io/CH32V003/datasheet_en/CH32V003DS0.PDF) / [zh](https://ch32-riscv-ug.github.io/CH32V003/datasheet_zh/CH32V003DS0.PDF) | [drawing](https://raw.githubusercontent.com/ch32-riscv-ug/WCH-common/main/image/package_QFN20.png) |
 | SOP8 | CH32V003J4M6 | [en](https://ch32-riscv-ug.github.io/CH32V003/datasheet_en/CH32V003DS0.PDF) / [zh](https://ch32-riscv-ug.github.io/CH32V003/datasheet_zh/CH32V003DS0.PDF) | [drawing](https://raw.githubusercontent.com/ch32-riscv-ug/WCH-common/main/image/package_SOP8.png) |
 
-## Pin definitions
+## Pin maps & alternate functions
+
+> [!NOTE]
+> These are the **pin-table superset**: the datasheet prints one pad table for every product that shares a pinout, so a pad row does not mean this part has the peripheral. Use the product comparison table above for what a given part number contains.
 
 ### CH32V003 pin map
 
