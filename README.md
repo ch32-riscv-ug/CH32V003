@@ -55,14 +55,14 @@ Only the 3 rows that differ between these 4 products; the other 9 are the same f
 
 ## Packages & pinout drawings
 
-Pinout drawings are in the datasheet (chapter *Pinouts*):
+Pinout drawings are in the datasheet (chapter *Pinouts*); each link opens at the page that carries the drawing:
 
 | Package | Products | Datasheet | Outline |
 |---|---|---|---|
-| SOP16 | CH32V003A4M6 | [en](https://ch32-riscv-ug.github.io/CH32V003/datasheet_en/CH32V003DS0.PDF) / [zh](https://ch32-riscv-ug.github.io/CH32V003/datasheet_zh/CH32V003DS0.PDF) | [drawing](https://raw.githubusercontent.com/ch32-riscv-ug/WCH-common/main/image/package_SOP16.png) |
-| TSSOP20 | CH32V003F4P6 | [en](https://ch32-riscv-ug.github.io/CH32V003/datasheet_en/CH32V003DS0.PDF) / [zh](https://ch32-riscv-ug.github.io/CH32V003/datasheet_zh/CH32V003DS0.PDF) | [drawing](https://raw.githubusercontent.com/ch32-riscv-ug/WCH-common/main/image/package_TSSOP20.png) |
-| QFN20 | CH32V003F4U6 | [en](https://ch32-riscv-ug.github.io/CH32V003/datasheet_en/CH32V003DS0.PDF) / [zh](https://ch32-riscv-ug.github.io/CH32V003/datasheet_zh/CH32V003DS0.PDF) | [drawing](https://raw.githubusercontent.com/ch32-riscv-ug/WCH-common/main/image/package_QFN20.png) |
-| SOP8 | CH32V003J4M6 | [en](https://ch32-riscv-ug.github.io/CH32V003/datasheet_en/CH32V003DS0.PDF) / [zh](https://ch32-riscv-ug.github.io/CH32V003/datasheet_zh/CH32V003DS0.PDF) | [drawing](https://raw.githubusercontent.com/ch32-riscv-ug/WCH-common/main/image/package_SOP8.png) |
+| SOP16 | CH32V003A4M6 | [en](https://ch32-riscv-ug.github.io/CH32V003/datasheet_en/CH32V003DS0.PDF#page=12) / [zh](https://ch32-riscv-ug.github.io/CH32V003/datasheet_zh/CH32V003DS0.PDF#page=9) | [drawing](https://raw.githubusercontent.com/ch32-riscv-ug/WCH-common/main/image/package_SOP16.png) |
+| TSSOP20 | CH32V003F4P6 | [en](https://ch32-riscv-ug.github.io/CH32V003/datasheet_en/CH32V003DS0.PDF#page=12) / [zh](https://ch32-riscv-ug.github.io/CH32V003/datasheet_zh/CH32V003DS0.PDF#page=9) | [drawing](https://raw.githubusercontent.com/ch32-riscv-ug/WCH-common/main/image/package_TSSOP20.png) |
+| QFN20 | CH32V003F4U6 | [en](https://ch32-riscv-ug.github.io/CH32V003/datasheet_en/CH32V003DS0.PDF#page=12) / [zh](https://ch32-riscv-ug.github.io/CH32V003/datasheet_zh/CH32V003DS0.PDF#page=9) | [drawing](https://raw.githubusercontent.com/ch32-riscv-ug/WCH-common/main/image/package_QFN20.png) |
+| SOP8 | CH32V003J4M6 | [en](https://ch32-riscv-ug.github.io/CH32V003/datasheet_en/CH32V003DS0.PDF#page=13) / [zh](https://ch32-riscv-ug.github.io/CH32V003/datasheet_zh/CH32V003DS0.PDF#page=9) | [drawing](https://raw.githubusercontent.com/ch32-riscv-ug/WCH-common/main/image/package_SOP8.png) |
 
 ## Pin maps & alternate functions
 
