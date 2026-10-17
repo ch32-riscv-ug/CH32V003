@@ -42,8 +42,8 @@
       "sources": {
         "zh": {
           "file_id": 409,
-          "version": "2.1",
-          "scope": "CH32V003"
+          "version": "2.2",
+          "scope": "CH32V003A4M6, CH32V003F4P6, CH32V003F4U6, CH32V003J4M6"
         }
       }
     },
